@@ -1,0 +1,63 @@
+.suggestions-container {
+  position: absolute;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  width: calc(100% - 32px); /* Adjust the width based on padding/margins */
+  background: white;
+}
+
+.suggestion-item {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: normal;
+  font-size: xx-large;
+}
+.navtitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: x-large;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #d6d6c2 0%, #adad85 99%);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 50px;
+  box-shadow: #000a0268 2px 2px;
+}
+
+.img-fluid {
+  height: 300px;
+  width: 450px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.frrm {
+  background: linear-gradient(to bottom, #d6d6c258 0%, #adad8558 99%);
+  color: rgba(47, 47, 47, 0.748);
+}
+
+.btnSearch {
+  background: linear-gradient(to bottom, #d6d6c258 0%, #adad8558 99%);
+  border-radius: 4px;
+  border: rgba(56, 24, 6, 0.603) solid 1px;
+}
+
+.card-body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  font-style: italic;
+  text-shadow: rgb(0, 0, 0) solid 2px;
+  font-weight: 200;
+}
